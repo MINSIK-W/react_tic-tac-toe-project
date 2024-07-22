@@ -25,7 +25,7 @@ export default function Player({ initialName, symbol, isActive }) {
         {editablePlayerName}
         <span className="player-symbol">{symbol}</span>
       </span>
-      <button onClick={handleEditClick}>{isEditing ? '저장' : '수정'}</button>
+      <button onClick={handleEditClick}>{isEditing ? 'Save' : 'Edit'}</button>
     </li>
   );
 }
